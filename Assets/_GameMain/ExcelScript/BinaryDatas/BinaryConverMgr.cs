@@ -25,6 +25,7 @@ namespace B_Star
             AddBinConverTer(new Binary_Vector2());
             AddBinConverTer(new Binary_Vector3());
             AddBinConverTer(new Binary_Vector4());
+            
             IsConverter = true;
         }
         private static void AddBinConverTer(IBinaryConverter converter)

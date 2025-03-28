@@ -9,10 +9,9 @@ namespace B_Star
 {
     public static class ExcelMenu
     {
-        [MenuItem("Game Framework/Excel/GenerateExcelInfo")]
+        [MenuItem("B_Star/Excel/GenerateExcelInfo")]
         private static void GenerateExcelInfo()
         {
-
             //判断删除存储路径下的文件 因为文件自动存储会产生问题 -- 如果路径存在，则直接删除
             if (Directory.Exists(AssetUtility.DataTableNewScriptPath))
             {

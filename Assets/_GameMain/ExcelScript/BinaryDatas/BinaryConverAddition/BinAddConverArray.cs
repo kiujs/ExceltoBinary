@@ -71,9 +71,6 @@ namespace B_Star
                 }
             }
         }
-
-
-
         public object Parse(BinaryReader BinaryReader, string Name)
         {
             l_Name = Name;

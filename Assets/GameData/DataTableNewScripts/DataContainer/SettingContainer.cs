@@ -3,7 +3,7 @@ ___此脚本为自动生成，请勿修改_____B_Star___咩！__________________
 _______________________________________________________________*/
 using System.Collections.Generic;
 using UnityEngine;
-public class GameSettingContainer
+public class SettingContainer
 {
-    public Dictionary<int, GameSetting> dataDic = new Dictionary<int, GameSetting>();
+    public Dictionary<int, Setting> dataDic = new Dictionary<int, Setting>();
 }

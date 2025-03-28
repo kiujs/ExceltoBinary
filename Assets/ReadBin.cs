@@ -28,12 +28,9 @@ namespace B_Star
                     }
                 }
             }
+            SettingContainer gameSettingContainer2 = BinaryDataMgr.GetTable<SettingContainer>();
+            Debug.Log("新表数值" + gameSettingContainer2.dataDic[1].Str);
     	}
-	
-    	// Update is called once per frame
-    	void Update()
-    	{
-       	 
-    	}
+
 	}
 }

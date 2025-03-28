@@ -10,14 +10,8 @@ using UnityEngine;
 
 namespace B_Star
 {
-    /// <summary>
-    /// 2023/7/3拓展,二进制生成类的继承 -- 由一个类继承另一个类
-    /// </summary>
     public static class ExcelTool
     {
-        /// <summary>
-        /// 真正内容开始的行号
-        /// </summary>
         public static int BEGIN_INDEX = 4;
 
         public static string ContainerClassName = "Container";
@@ -277,7 +271,6 @@ namespace B_Star
                     //1，先存储需要写多少行数据，方便后续读取
                     //-4的原因是因为 前面4行是配置规则 并不是我们需要记录的数据内容
                     bw.Write(table.Dimension.End.Row - BEGIN_INDEX);
-
                     //判断继承！！！
                     int Inherit = -1;
                     if (GetInherit(table) != -1)

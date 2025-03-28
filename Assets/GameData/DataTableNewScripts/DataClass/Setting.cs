@@ -5,22 +5,14 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 [System.Serializable]
-public class GameSetting
+public class Setting
 {
     /// <summary>
-    /// 读取IntID
+    /// Setting ID
     /// </summary>
     public int ID;
     /// <summary>
-    /// 读取Str
+    /// SettingStr
     /// </summary>
-    public String Str;
-    /// <summary>
-    /// int数组
-    /// </summary>
-    public int[] M_IntArray;
-    /// <summary>
-    /// int二维数组
-    /// </summary>
-    public int[][] M_IntArray_Array;
+    public string Str;
 }
